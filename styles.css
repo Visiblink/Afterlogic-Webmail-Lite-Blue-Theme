@@ -7121,6 +7121,7 @@ html.rtl .folders .folder-level19 .title {
   right: 0px;
   top: 0px;
   width: 20px;
+  filter: hue-rotate(104deg);
 }
 .messages_panel .items_list .item.answered .marker {
   background-position: 0px -200px;
