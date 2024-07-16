@@ -5,6 +5,8 @@ To install, you have a couple of choices.
 
 1. You can just drop the styles.css file into static/styles/themes/Default to change the default look. It would probably be a good idea to create a backup of the existing default file before doing that in case you don't like the change.
 
+The main benefits of this method are that it is easier to implement and it styles the login page as well.
+
 Or:
 
 2. Create a new directory and add your style to the data/settings/modules/CoreWebclient.config.json:
@@ -30,7 +32,7 @@ Find this section:
         "List of themes available"
     ],
 
-Change it to look like this:
+Change it to look like this by adding the "Blue" line:
 
     "ThemeList": [
         [
