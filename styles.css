@@ -1,6 +1,3 @@
-/* from your afterlogic folder in /var/www/ or /var/www/html, navigate to static/styles/themes/Default. */
-/* Move the existing styles.css file to style.css.bak. Then create a new styles.css file and paste this text into it. */
-
 .login_panel .welcome.welcome-reset-password {
   color: #025358 !important;
 }
