@@ -11,11 +11,11 @@ Or:
 
 2. Create a new directory and add your style to the data/settings/modules/CoreWebclient.config.json:
 
-A. Create a new directory called "Blue" in static/styles/themes/ (which would be static/styles/themes/Blue).
+    A. Create a new directory called "Blue" in static/styles/themes/ (which would be static/styles/themes/Blue).
 
-B. Drop the styles.css file into that directory.
+    B. Drop the styles.css file into that directory.
 
-C. Edit data/settings/modules/CoreWebclient.config.json to add a new entry menu for the Blue theme:
+    C. Edit data/settings/modules/CoreWebclient.config.json to add a new entry menu for the Blue theme:
 
 Find this section:
 
