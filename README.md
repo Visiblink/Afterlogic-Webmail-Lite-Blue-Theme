@@ -9,7 +9,7 @@ An unofficial blue theme for Afterlogic Webmail Lite. I'm still finding the occa
 
 # Installation
 
-To install, you have a couple of choices.
+To install, you have a couple of choices:
 
 1. You can just drop the styles.css file into static/styles/themes/Default to change the default look. It would probably be a good idea to create a backup of the existing default file before doing that in case you don't like the change.
 
