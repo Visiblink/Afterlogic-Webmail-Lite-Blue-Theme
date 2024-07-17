@@ -1675,6 +1675,8 @@ html.rtl .buttons {
 /* ---- BLUE THEME ---- */
 
   color: #ffffff80;
+  background-color: #00a8df70;
+  border: 1px solid #00a8df70;
 }
 .buttons .button.disabled:hover {
 
