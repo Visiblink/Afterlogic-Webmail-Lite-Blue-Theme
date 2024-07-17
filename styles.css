@@ -561,6 +561,7 @@ html.rtl .panel.item_viewer {
 .panel.item_viewer .attachments .download_menu .link .icon {
   color: #3ba7b6;
   display: none;
+  filter: hue-rotate(300deg);
 }
 .panel.item_viewer .attachments .download_menu .link .icon:before {
   speak: none;
@@ -1673,7 +1674,7 @@ html.rtl .buttons {
 
 /* ---- BLUE THEME ---- */
 
-  color: #00a8df;
+  color: #ffffff80;
 }
 .buttons .button.disabled:hover {
 
