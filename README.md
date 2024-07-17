@@ -4,6 +4,7 @@ An unofficial blue theme for Afterlogic Webmail Lite. I'm still finding the occa
 # Screenshots
 
 ![Afterlogic-Blue-Theme-Screenshot1](https://github.com/user-attachments/assets/406fba70-0bec-43e3-a044-2b3c9d676d25)
+
 ![Afterlogic-Blue-Theme-Screenshot2](https://github.com/user-attachments/assets/c9df00b1-b9d5-4776-a2d9-33e1c5f4b113)
 
 # Installation
