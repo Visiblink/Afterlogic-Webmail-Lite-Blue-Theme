@@ -561,6 +561,9 @@ html.rtl .panel.item_viewer {
 .panel.item_viewer .attachments .download_menu .link .icon {
   color: #3ba7b6;
   display: none;
+  
+/* ---- BLUE THEME ---- */
+
   filter: hue-rotate(300deg);
 }
 .panel.item_viewer .attachments .download_menu .link .icon:before {
@@ -945,12 +948,18 @@ html.rtl .list_notification .link {
 }
 .toolbar .content > .item > .icon,
 .toolbar .content .group > .item > .icon {
-  color: #82748e;
+	
+/* ---- BLUE THEME ---- */
+
+  color: #0092cc;
   text-shadow: none;
 }
 .toolbar .content > .item > .icon:hover,
 .toolbar .content .group > .item > .icon:hover {
-  color: #685d72;
+
+/* ---- BLUE THEME ---- */
+
+  color: #087099;
 }
 .toolbar .content > .item .hint,
 .toolbar .content .group > .item .hint {
@@ -1676,7 +1685,7 @@ html.rtl .buttons {
 
   color: #ffffff80;
   background-color: #00a8df70;
-  border: 1px solid #00a8df70;
+  border: 1px solid #00a8df15;
 }
 .buttons .button.disabled:hover {
 
@@ -7124,6 +7133,9 @@ html.rtl .folders .folder-level19 .title {
   right: 0px;
   top: 0px;
   width: 20px;
+  
+/* ---- BLUE THEME ---- */
+
   filter: hue-rotate(104deg);
 }
 .messages_panel .items_list .item.answered .marker {
@@ -7276,6 +7288,7 @@ html.rtl .messages_panel .items_list .item .thread-pin {
     background-size: 1440px 560px;
 
 /* ---- BLUE THEME ---- */
+
     filter: hue-rotate(104deg);
   }
 }
@@ -7607,7 +7620,7 @@ html.rtl .message_viewer .message_header .from {
   z-index: 1001;
 }
 .item_viewer .add_contact {
-  color: #3ba7b6;
+  color: #5b9bcd;
   cursor: pointer;
   display: inline-block;
   height: auto;
@@ -8282,8 +8295,12 @@ blockquote {
 }
 .buttons .contour_button,
 .buttons .contour_button:hover {
+
+/* ---- BLUE THEME ---- */
+	
   background: white !important;
   text-shadow: none !important;
+  color: #00a8df70 !important;
 }
 .toolbar .buttons {
   margin: 0;
