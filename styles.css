@@ -4341,7 +4341,10 @@ li.address_capsule .ficon {
 }
 span.address_capsule.inputosaurus-selected,
 li.address_capsule.inputosaurus-selected {
-  background: #5b9bcd;
+	
+/* ---- BLUE THEME ---- */
+
+  background: #0092cc;
   color: #ffffff;
 }
 span.address_capsule.inputosaurus-selected .ficon,
@@ -7620,7 +7623,7 @@ html.rtl .message_viewer .message_header .from {
   z-index: 1001;
 }
 .item_viewer .add_contact {
-  color: #5b9bcd;
+  color: #0092cc;
   cursor: pointer;
   display: inline-block;
   height: auto;
