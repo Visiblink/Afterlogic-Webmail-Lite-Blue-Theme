@@ -1661,7 +1661,6 @@ html.rtl .buttons {
 /* ---- BLUE THEME ---- */
 
   background: #00a8df;
-  border: 1px solid #00a8df;
   color: #ffffff;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
@@ -1676,7 +1675,6 @@ html.rtl .buttons {
 /* ---- BLUE THEME ---- */
 
 .buttons .button:hover {
-
   background: #087099;
 }
 .buttons .button.disabled {
@@ -2953,10 +2951,12 @@ html.rtl .ui-datepicker-trigger {
   margin: 0;
   padding: 0px 8px 0px;
 }
+
+/* ---- BLUE THEME ---- */
 .attachments .item .buttons .button {
   background: none;
   border: 0px;
-  color: #4477bb;
+  color: #5b9bcd;
   font-size: 9pt;
   font-weight: normal;
   padding: 0px;
@@ -8009,8 +8009,10 @@ html.rtl .panel.compose table.fields .label {
 .panel.compose table.fields .subject {
   font-size: 11pt;
 }
+
+/* ---- BLUE THEME ---- */
 .panel.compose table.fields .to .link {
-  color: #4477bb;
+  color: #5b9bcd;
   display: inline-block;
   font-size: 11pt;
 }
@@ -8296,15 +8298,26 @@ blockquote {
 
   color: #00A8DF;
 }
-.buttons .contour_button,
-.buttons .contour_button:hover {
+.buttons .contour_button {
 
 /* ---- BLUE THEME ---- */
 	
   background: white !important;
   text-shadow: none !important;
   color: #00a8df70 !important;
+  border: 1px solid #00a8df70 !important;
 }
+
+.buttons .contour_button:hover {
+
+/* ---- BLUE THEME ---- */
+	
+  background: white !important;
+  text-shadow: none !important;
+  color: #00a8df !important;
+  border: 1px solid #00a8df !important;
+}
+
 .toolbar .buttons {
   margin: 0;
   padding: 0;
@@ -10366,4 +10379,5 @@ html.rtl .LoginLayout .languages.demo {
 }
 .settings .folders .controls .button.delete_device:before {
   content: '\e606';
+}
 }
